@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    /*height: 100%; */
+}
+
+
+
+
+body {
+    background-image: linear-gradient( to  top, #3B5959, #AEBFBC) ;
+    color: #0D0D0D;
+}
+
+main {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px #253838; ;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+
+h1 {
+    color: #A68686; 
+    text-align: center;
+    text-shadow: 1px 1px 2px #3b3131da;
+}
+
+h2 { color: #BF6956; 
+
+}
+
+p {
+    text-align: justify;
+}
+
+
+/* Color Theme Swatches in Hex 
+.Ilustração-1-hex { color: #3B5959; }
+.Ilustração-2-hex { color: #AEBFBC; }
+.Ilustração-3-hex { color: #F2D5BB; }
+.Ilustração-4-hex { color: #BF6956; }
+.Ilustração-5-hex { color: #A68686; }
+
+*/
