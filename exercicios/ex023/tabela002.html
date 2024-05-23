@@ -12,6 +12,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
         td, th {
             border: 1px solid black;
@@ -32,13 +33,19 @@
             background-color: rgb(201, 198, 233);
         }
         /*tbody > tr:nth-child(2n) { /* EFEITO ZEBRADO*/
-            background-color: lightgray;*/
-            
-        }
+         /*   background-color: lightgray;            
+        } */
         thead, tfoot {
             background-color: gray;
             color: white;
         }
+        thead > tr > th { /* o th (table head) que está dentro da linha (tr) que está dentro do cabeçalho (thead) */
+            position: sticky; /* grudar */
+            top: -1px; /* parar no topo da página */
+            background-color: gray;
+
+        }
+
         td.num {
             text-align: right;
         }
@@ -185,5 +192,8 @@
             </tr>
         </tfoot>
     </table>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed quae velit officiis cumque omnis soluta. Blanditiis deleniti, odio et, ex quis, dolores quisquam numquam accusantium voluptates soluta ipsam ea quo. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum explicabo nesciunt odit ea est natus maxime fuga earum ullam totam, vel, aspernatur officiis. Eaque dolorum, dignissimos deleniti voluptatibus perspiciatis vel? Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, quaerat velit asperiores officia commodi suscipit tenetur praesentium dolores voluptas nobis vitae doloremque sunt atque nemo laboriosam! Quas expedita accusamus impedit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, soluta optio eos assumenda mollitia rem quas voluptas voluptatum harum reprehenderit magni impedit facere fuga placeat debitis, voluptatibus tempora excepturi deserunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus dolor deserunt itaque reiciendis modi blanditiis in illum quod similique dolores hic, minus quos quis iure ipsa, temporibus recusandae dolore accusamus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, soluta velit. Voluptatum aspernatur quisquam tempore in, commodi, doloremque, unde culpa modi eveniet illo porro totam rerum sit dolor nulla iste? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus ullam non quas magni sed, minus sequi in laboriosam officia amet earum harum soluta eaque dolorum magnam deserunt odit! Nemo, impedit?</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed quae velit officiis cumque omnis soluta. Blanditiis deleniti, odio et, ex quis, dolores quisquam numquam accusantium voluptates soluta ipsam ea quo. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum explicabo nesciunt odit ea est natus maxime fuga earum ullam totam, vel, aspernatur officiis. Eaque dolorum, dignissimos deleniti voluptatibus perspiciatis vel? Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, quaerat velit asperiores officia commodi suscipit tenetur praesentium dolores voluptas nobis vitae doloremque sunt atque nemo laboriosam! Quas expedita accusamus impedit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, soluta optio eos assumenda mollitia rem quas voluptas voluptatum harum reprehenderit magni impedit facere fuga placeat debitis, voluptatibus tempora excepturi deserunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus dolor deserunt itaque reiciendis modi blanditiis in illum quod similique dolores hic, minus quos quis iure ipsa, temporibus recusandae dolore accusamus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, soluta velit. Voluptatum aspernatur quisquam tempore in, commodi, doloremque, unde culpa modi eveniet illo porro totam rerum sit dolor nulla iste? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus ullam non quas magni sed, minus sequi in laboriosam officia amet earum harum soluta eaque dolorum magnam deserunt odit! Nemo, impedit?</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed quae velit officiis cumque omnis soluta. Blanditiis deleniti, odio et, ex quis, dolores quisquam numquam accusantium voluptates soluta ipsam ea quo. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum explicabo nesciunt odit ea est natus maxime fuga earum ullam totam, vel, aspernatur officiis. Eaque dolorum, dignissimos deleniti voluptatibus perspiciatis vel? Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, quaerat velit asperiores officia commodi suscipit tenetur praesentium dolores voluptas nobis vitae doloremque sunt atque nemo laboriosam! Quas expedita accusamus impedit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, soluta optio eos assumenda mollitia rem quas voluptas voluptatum harum reprehenderit magni impedit facere fuga placeat debitis, voluptatibus tempora excepturi deserunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus dolor deserunt itaque reiciendis modi blanditiis in illum quod similique dolores hic, minus quos quis iure ipsa, temporibus recusandae dolore accusamus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, soluta velit. Voluptatum aspernatur quisquam tempore in, commodi, doloremque, unde culpa modi eveniet illo porro totam rerum sit dolor nulla iste? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus ullam non quas magni sed, minus sequi in laboriosam officia amet earum harum soluta eaque dolorum magnam deserunt odit! Nemo, impedit?</p>
 </body>
 </html>
